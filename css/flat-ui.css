@@ -4774,22 +4774,22 @@ footer p {
   padding:0px 15px 0px 0px;
 }
 /* icon redes sociales*/
-[class*="icon-"] {
+[class*="iconsocial-"] {
   display: inline-block;
   width: 64px;
   height: 64px;
   background-image: url(../images/icons/svg/sprites.svg);
   background-repeat: no-repeat;
 }
-.icon-facebook {
+.iconsocial-facebook {
   background-position: 0 0;
   width: 64px;
 }
-.icon-twitter {
+.iconsocial-twitter {
   background-position: -96px 0;
   width: 64px;
 }
-.icon-google {
+.iconsocial-google {
   background-position: -192px 0;
   width: 64px;
 }
@@ -4870,4 +4870,34 @@ footer p {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+[class*="icon-"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/icons/svg/mini_icons.svg);
+  background-repeat: no-repeat;
+}
+.icon-search {
+  background-position: 0 0;
+  width: 16px;
+}
+.icon-attachment {
+  background-position: -320px 0;
+  width: 16px;
+}
+
+/* profile */
+
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+  position: relative;
 }
